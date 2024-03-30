@@ -25,10 +25,7 @@ public class App
         StudentDao studentDao = ctx.getBean("studentDao",StudentDao.class);
         
         
-//        Student student=new Student(5, "Suvekshya", "Samakhusi");
 //        
-//        int res= studentDao.insert(student);
-//        System.out.println("done"+ res);
         
         boolean go=true;
         Scanner scan=new Scanner(System.in);
